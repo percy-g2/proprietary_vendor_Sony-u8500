@@ -19,8 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libasound.so:obj/lib/libasound.so
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/montblanc-common/proprietary/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
-    vendor/sony/montblanc-common/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker \
     vendor/sony/montblanc-common/proprietary/bin/wait4tad:system/bin/wait4tad \
     vendor/sony/montblanc-common/proprietary/bin/modem_log_relay:system/bin/modem_log_relay \
     vendor/sony/montblanc-common/proprietary/bin/lbsd:system/bin/lbsd \
@@ -397,9 +395,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/tee/libasb_ta_test.ssw:system/lib/tee/libasb_ta_test.ssw \
     vendor/sony/montblanc-common/proprietary/lib/tee/suntory_convert_ta.ssw:system/lib/tee/suntory_convert_ta.ssw \
     vendor/sony/montblanc-common/proprietary/lib/tee/suntory_convert_ta_test.ssw:system/lib/tee/suntory_convert_ta_test.ssw \
-    vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_mp3dec.so:system/lib/libstagefright_soft_ste_mp3dec.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalgpds.so:system/lib/libmalgpds.so \
-    vendor/sony/montblanc-common/proprietary/lib/libstagefright_ste_mp3decode.so:system/lib/libstagefright_ste_mp3decode.so \
     vendor/sony/montblanc-common/proprietary/lib/libcops.so:system/lib/libcops.so \
     vendor/sony/montblanc-common/proprietary/lib/libnmfee.so:system/lib/libnmfee.so \
     vendor/sony/montblanc-common/proprietary/lib/libarchive.so:system/lib/libarchive.so \
@@ -409,7 +405,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/sony/montblanc-common/proprietary/lib/libmaluicc.so:system/lib/libmaluicc.so \
     vendor/sony/montblanc-common/proprietary/lib/libnmf.so:system/lib/libnmf.so \
-    vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_wmapro_v10.so:system/lib/libstagefright_soft_ste_wmapro_v10.so \
     vendor/sony/montblanc-common/proprietary/lib/libnmftimer.so:system/lib/libnmftimer.so \
     vendor/sony/montblanc-common/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/sony/montblanc-common/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
@@ -417,7 +412,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libmalcs.so:system/lib/libmalcs.so \
     vendor/sony/montblanc-common/proprietary/lib/libbluetooth.so:system/lib/libbluetooth.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalpipe.so:system/lib/libmalpipe.so \
-    vendor/sony/montblanc-common/proprietary/lib/libstagefright_ste_aacdec.so:system/lib/libstagefright_ste_aacdec.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_audio_samplerateconv.so:system/lib/libste_ens_audio_samplerateconv.so \
     vendor/sony/montblanc-common/proprietary/lib/libisimessage.so:system/lib/libisimessage.so \
@@ -439,7 +433,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/liblos.so:system/lib/liblos.so \
     vendor/sony/montblanc-common/proprietary/lib/libcn.so:system/lib/libcn.so \
     vendor/sony/montblanc-common/proprietary/lib/libidd.so:system/lib/libidd.so \
-    vendor/sony/montblanc-common/proprietary/lib/libiwiOmx.so:system/lib/libiwiOmx.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
     vendor/sony/montblanc-common/proprietary/lib/libstecom.so:system/lib/libstecom.so \
     vendor/sony/montblanc-common/proprietary/lib/liblbstestengine.so:system/lib/liblbstestengine.so \
@@ -512,11 +505,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/network.so:system/lib/bluez-plugin/network.so \
     vendor/sony/montblanc-common/proprietary/lib/bluez-plugin/input.so:system/lib/bluez-plugin/input.so \
     vendor/sony/montblanc-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/sony/montblanc-common/proprietary/lib/libstagefright_soft_ste_aacdec.so:system/lib/libstagefright_soft_ste_aacdec.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ens_video_common.so:system/lib/libste_ens_video_common.so \
     vendor/sony/montblanc-common/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/sony/montblanc-common/proprietary/lib/libu300-ril.so:system/lib/libu300-ril.so \
-    vendor/sony/montblanc-common/proprietary/lib/libiwiOmxUtil.so:system/lib/libiwiOmxUtil.so \
     vendor/sony/montblanc-common/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/montblanc-common/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/montblanc-common/proprietary/lib/libmalmis.so:system/lib/libmalmis.so \
@@ -534,4 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/lib/libmmprobe.so:system/lib/libmmprobe.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_aiq_tools.so:system/lib/libste_aiq_tools.so \
     vendor/sony/montblanc-common/proprietary/lib/libste_ensloader.so:system/lib/libste_ensloader.so \
-    vendor/sony/montblanc-common/proprietary/lib/libclientgps.so:system/lib/libclientgps.so
+    vendor/sony/montblanc-common/proprietary/lib/libclientgps.so:system/lib/libclientgps.so \
+    vendor/sony/montblanc-common/proprietary/xbin/ste-cg29xx_ctrl:system/xbin/ste-cg29xx_ctrl \
+    vendor/sony/montblanc-common/proprietary/xbin/watchdog-kicker:system/xbin/watchdog-kicker
