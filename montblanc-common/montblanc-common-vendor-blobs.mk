@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/montblanc-common/proprietary/etc/plmn.latam.list:system/etc/plmn.latam.list \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/input.conf:system/etc/bluetooth/input.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/audio.conf:system/etc/bluetooth/audio.conf \
+    vendor/sony/montblanc-common/proprietary/etc/bluetooth/stack.conf:system/etc/bluetooth/stack.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/network.conf:system/etc/bluetooth/network.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
     vendor/sony/montblanc-common/proprietary/etc/bluetooth/blacklist.conf:system/etc/bluetooth/blacklist.conf \
